@@ -1,0 +1,42 @@
+.beneficios {
+	display: flex;
+	flex-flow: wrap;
+	text-align: center;
+	width: 90%;
+	margin:10rem auto;
+	grid-gap: 3rem;
+	text-align: left;
+}
+
+.beneficios p {
+	color: rgba(0, 0, 0, .5);
+}
+
+.bene_item {
+	display: flex;
+	align-items: center;
+	border-radius: 15px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+	padding: 1.5rem;
+}
+
+
+@media (max-width: 1000px) {
+	.bene_item {
+		flex-flow: column;
+	}
+	.bene_item img {
+		margin: 1rem 0;
+	}
+}
+
+
+@media (min-width: 1000px) {
+	.bene_item img:nth-child(even) {
+		margin: 1rem 0 1rem 10rem;
+	}
+
+	.bene_item img:nth-child(odd) {
+		margin: 1rem 10rem 1rem 0;
+	}
+}

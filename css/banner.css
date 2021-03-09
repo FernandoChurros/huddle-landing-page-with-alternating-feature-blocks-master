@@ -1,0 +1,30 @@
+.banner {
+	margin: 4rem 3rem;
+}
+
+.banner img {
+	width: 100%;
+}
+
+@media (max-width: 1000px) {
+	.banner {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1000px) {
+	.banner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: calc(100vh - 75px - 6rem);
+	}
+
+	.banner h1 {
+		width: 300px;
+	}
+
+	.banner p {
+		width: 500px;
+	}
+}
