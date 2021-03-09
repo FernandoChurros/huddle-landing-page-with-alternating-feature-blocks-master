@@ -20,6 +20,11 @@
 		transition: font-weight 150ms linear;
 	}
 
+	.btn:hover:not(.--header) {
+		cursor: pointer;
+		font-weight: 400;
+		background-color: hsl(300, 70%, 66%);
+	}
 	.btn:hover {
 		cursor: pointer;
 		font-weight: 400;

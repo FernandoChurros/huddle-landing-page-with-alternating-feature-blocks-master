@@ -21,10 +21,12 @@ img {
 
 @media(max-width: 1000px) {
 	body {
-	background:
-		url("../images/bg/bg-hero-mobile.svg")
-		no-repeat,
-		linear-gradient(to bottom, hsl(193, 100%, 96%) 700px, #FFF 700px);
+		background:
+			url("../images/bg/bg-hero-mobile.svg")
+			no-repeat,
+			linear-gradient(to top, hsl(192, 100%, 9%) 870px, rgba(0, 0, 0, 0) 870px),
+			linear-gradient(to bottom, hsl(193, 100%, 96%) 500px, #FFF 500px)
+			;
 	}
 }
 
@@ -33,6 +35,7 @@ img {
 	background:
 		url("../images/bg/bg-hero-desktop.svg")
 		no-repeat,
+		linear-gradient(to top, hsl(192, 100%, 9%) 510px, rgba(0, 0, 0, 0) 510px),
 		linear-gradient(to bottom, hsl(193, 100%, 96%) 100vh, #FFF 100vh);
 	}
 }
