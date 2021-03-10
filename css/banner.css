@@ -1,9 +1,13 @@
 .banner {
-	margin: 4rem 3rem;
+	background:
+	url("../images/bg/bg-hero-desktop.svg")
+	no-repeat
+	 hsl(193, 100%, 96%);
+	padding: 4rem 3rem;
 }
 
 .banner img {
-	width: 100%;
+	width: 90%;
 }
 
 @media (max-width: 1000px) {

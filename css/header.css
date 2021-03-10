@@ -3,6 +3,9 @@
 	align-items: center;
 	justify-content: space-between;
 	height: 75px;
+	background:
+	url("../images/bg/bg-hero-desktop.svg")
+	hsl(193, 100%, 96%);
 }
 
 .header img {
