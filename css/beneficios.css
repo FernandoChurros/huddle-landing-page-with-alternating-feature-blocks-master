@@ -32,11 +32,15 @@
 
 
 @media (min-width: 1000px) {
-	.bene_item img:nth-child(even) {
+	.beneficios_img:not(.--meio) {
 		margin: 1rem 0 1rem 10rem;
 	}
 
-	.bene_item img:nth-child(odd) {
+	.--meio {
 		margin: 1rem 10rem 1rem 0;
+	}
+
+	.bene_item:nth-child(odd) {
+		flex-direction: row-reverse;
 	}
 }
